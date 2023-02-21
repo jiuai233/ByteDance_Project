@@ -63,3 +63,77 @@
     color: #aaa;
     font-size: 0.5rem;
 }
+
+
+.advertise{
+    width: 14rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.advertisepicctn{
+    margin-bottom: 0.8rem;
+    position: relative;
+}
+
+.advertisepic{
+    border-radius: 0.2rem;
+    width: 14rem;
+    height: 13rem;
+}
+
+.tinytext{
+    position: absolute;
+    right: 0.8rem;
+    bottom: 0.8rem;
+    font-size: 0.08rem;
+    padding: 0.1rem 0.4rem;
+    color: white;
+    background-color: rgba(170, 170, 170, 0.5);
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.tinytext:hover{
+    background-color: rgba(170, 170, 170, 0.7);
+}
+
+.del{
+    position: absolute;
+    right: 0.6rem;
+    top: 0.3rem;
+    color: gray;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.del:hover{
+    color: rgb(255, 106, 0);
+    font-size: 1.3rem;
+}
+
+.guide{
+    width: 14rem;
+    height: 5rem;
+    border-radius: 0.2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border: 1px solid #eee;
+}
+
+.guidepic{
+    width: 3rem;
+    height: 3rem;
+}
+
+.guidetext1{
+    font-size: 0.85rem;
+    margin-bottom: 0.5rem;
+}
+
+.guidetext2{
+    font-size: 0.6rem;
+    color: #aaa;
+}

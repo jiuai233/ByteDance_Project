@@ -1,4 +1,3 @@
-// import { useRouter } from 'next/router'
 import axios from "axios"
 import styles from '@/styles/hrq.module.css'
 import Authorone from './Authorone'
@@ -10,7 +9,7 @@ const Author = ()=>{
     useEffect(()=>{
         axios('http://localhost:1337/api/authors?populate=portrait')
         .then((response) => {
-            console.log(response.data.data)
+            // console.log(response.data.data)
             let authorlist=[]
             response.data.data.forEach((item) => {
                 // console.log(item);
