@@ -1,0 +1,88 @@
+.author{
+    width: 15rem;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+}
+
+.title{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: left;
+    width: 100%;
+    height: 2.5rem;
+    padding-left: 0.7rem;
+    border-bottom: 1px solid #eee;
+    /* background-color: #bfa; */
+    box-sizing: border-box;
+}
+
+.titleicon{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.titletext{
+    font-size: 0.9rem;
+}
+
+.people{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 1px solid #eee;
+}
+
+.person{
+    display: flex;
+    /* width: 100%; */
+    align-items: center;
+    justify-content: left;
+    /* height: 5rem; */
+    /* flex: auto; */
+    padding: 0.5rem 0.7rem;
+    /* background-color: #bfa; */
+}
+
+.portrait{
+    width: 3.2rem;
+    height: 3.2rem;
+    border-radius: 50%;
+    margin-right: 0.7rem;
+}
+
+.name{
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+}
+
+.introduce{
+    color: #aaa;
+    font-size: 0.5rem;
+}
+
+.alldata{
+    box-sizing: border-box;
+    /* background-color: #bfa; */
+    color: rgb(1, 128, 255);
+    font-size: 0.9rem;
+    position: relative;
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem;
+}
+
+.arrow{
+    position: absolute;
+    top:0;
+    bottom: 0;
+    margin: auto 0;
+    right: 4rem;
+    width: 0.4rem;
+    height: 0.4rem;
+    border-right:2px solid rgb(1, 128, 255);
+    border-top:2px solid rgb(1, 128, 255);
+    transform: rotate(45deg);
+}
