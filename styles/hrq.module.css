@@ -1,8 +1,9 @@
 .author{
-    width: 15rem;
+    background-color: white;
+    width: 14rem;
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    border: 1px solid #eee;
 }
 
 .title{
@@ -61,28 +62,4 @@
 .introduce{
     color: #aaa;
     font-size: 0.5rem;
-}
-
-.alldata{
-    box-sizing: border-box;
-    /* background-color: #bfa; */
-    color: rgb(1, 128, 255);
-    font-size: 0.9rem;
-    position: relative;
-    width: 100%;
-    text-align: center;
-    padding: 0.6rem;
-}
-
-.arrow{
-    position: absolute;
-    top:0;
-    bottom: 0;
-    margin: auto 0;
-    right: 4rem;
-    width: 0.4rem;
-    height: 0.4rem;
-    border-right:2px solid rgb(1, 128, 255);
-    border-top:2px solid rgb(1, 128, 255);
-    transform: rotate(45deg);
 }
